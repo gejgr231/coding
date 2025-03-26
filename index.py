@@ -82,6 +82,8 @@ a = """
 (  0  )\"\"\"\\
 ㅣ\"^\"\'     ㅣ
 ㅣㅣ_/=\\\\__ㅣ"""
+
+"""
 print(a)
 my_name = '김진수'
 print(f'{my_name:=^20}')
@@ -113,4 +115,26 @@ year = 2010
 print(f'태어난 년도를 입력하세요.{year}')
 now_year = 2023
 print(f'올해 년도를 입력하세요.{now_year}')
-print(f'올해는{now_year}년,홍길동님의 나이는 {now_year-year+1}세 입니다')
+print(f'올해는{now_year}년,{name}님의 나이는 {now_year-year+1}세 입니다')
+
+
+# 실습
+# 입출력 실습 - 다음과 같이 실행되도록 코드를 작성하세요.
+
+name = input("이름을 입력하세요: ")
+age = int(input("나이를 입력하세요: "))
+
+print(f"안녕하세요. {name}님! 당신의 나이는 {age}살입니다.")
+
+
+# 실습2
+# 입출력 실습 - 다음과 같이 실행되도록 코드를 작성하세요.
+
+name = input("이름을 입력하세요: ")
+year = int(input("태어난 년도를 입력하세요: "))
+now = int(input("현재 년도를 입력하세요: "))
+
+print(f"안녕하세요. {name}님! 당신은 {now - year + 1}살입니다.")
+
+"""
+
